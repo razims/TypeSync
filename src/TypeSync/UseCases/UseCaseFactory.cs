@@ -1,4 +1,5 @@
 ﻿using TypeSync.Models;
+using TypeSync.UseCases.Features;
 
 namespace TypeSync.UseCases
 {

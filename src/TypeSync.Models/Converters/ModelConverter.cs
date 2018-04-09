@@ -7,11 +7,11 @@ namespace TypeSync.Models.Converters
 {
     public class ModelConverter
     {
-        private readonly TypeConverter _typeConverter;
+        private readonly TypeConverter typeConverter;
 
         public ModelConverter()
         {
-            _typeConverter = new TypeConverter();
+            typeConverter = new TypeConverter();
         }
 
         public TypeScriptClassModel ConvertClass(CSharpClassModel classModel)
@@ -35,7 +35,7 @@ namespace TypeSync.Models.Converters
                 {
                     Name = p.Name,
                     IsOptional = p.Type.IsNullable,
-                    Type = _typeConverter.ConvertType(p.Type)
+                    Type = typeConverter.ConvertType(p.Type)
                 }).ToList()
             };
         }

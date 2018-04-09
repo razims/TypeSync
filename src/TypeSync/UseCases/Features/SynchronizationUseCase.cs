@@ -6,7 +6,7 @@ using TypeSync.Models.Converters;
 using TypeSync.Output.Emitters;
 using TypeSync.Output.Generators;
 
-namespace TypeSync.UseCases
+namespace TypeSync.UseCases.Features
 {
     public class SynchronizationUseCase : IUseCase
     {

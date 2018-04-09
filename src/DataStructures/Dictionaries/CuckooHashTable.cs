@@ -20,7 +20,7 @@ namespace DataStructures.Dictionaries
     public class CuckooHashTable<TKey, TValue> where TKey : IComparable<TKey>
     {
         /// <summary>
-        /// THE CUCKOO HASH TABLE ENTERY
+        /// THE CUCKOO HASH TABLE ENTRY
         /// </summary>
         private class CHashEntry<TKey, TValue> where TKey : IComparable<TKey>
         {

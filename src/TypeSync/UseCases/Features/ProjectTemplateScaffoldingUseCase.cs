@@ -1,7 +1,7 @@
 ﻿using log4net;
 using TypeSync.Models;
 
-namespace TypeSync.UseCases
+namespace TypeSync.UseCases.Features
 {
     public class ProjectTemplateScaffoldingUseCase : IUseCase
     {

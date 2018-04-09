@@ -2,7 +2,7 @@
 using TypeSync.Core.Features.ValidationAnalysis;
 using TypeSync.Models;
 
-namespace TypeSync.UseCases
+namespace TypeSync.UseCases.Features
 {
     public class ValidatorGenerationUseCase : IUseCase
     {

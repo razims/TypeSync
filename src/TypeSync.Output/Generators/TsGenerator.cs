@@ -18,7 +18,7 @@ namespace TypeSync.Output.Generators
 {
     public class TsGenerator
     {
-        private HttpClient _client;
+        private readonly HttpClient _client;
 
         public TsGenerator()
         {
